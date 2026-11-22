@@ -1,5 +1,11 @@
 # 🎬 Onde publicar meu drama de IA
 
+**🇧🇷 [Português](README.md) · 🇺🇸 [English](README.en.md) · 🇪🇸 [Español](README.es.md)**
+
+[![Onde publicar meu drama de IA](guia/assets/banner.jpg)](https://inematds.github.io/drama-ia-onde-publicar/guia/)
+
+📖 Guia de uso: **https://inematds.github.io/drama-ia-onde-publicar/guia/**
+
 Você fez (ou vai fazer) uma série de drama com IA e não sabe a quem mostrar nem quem paga. Este kit tira o chute: você diz sua rota, ele lista as 26 portas que conhecemos com a fonte oficial de cada uma, põe as abertas na frente, avisa as que já fecharam e escreve o e-mail de pitch.
 
 ## O que é
@@ -12,8 +18,9 @@ python3 -m drama rotas
 python3 -m drama escolher --rota criador
 python3 -m drama vencidos
 python3 -m drama pitch --titulo "..." --historia "..." --episodios 30 --duracao "90 s" --idioma English --amostra "<link privado>" --canal "<seu canal>" --ferramentas "<ferramentas de IA>"
-python3 -m unittest discover -s testes   # 9 testes: 26 linhas, fonte em toda linha, ordem, prazos, pitch
+python3 -m unittest discover -s testes   # 10 testes: 26 linhas, fonte em toda linha, ordem, prazos, pitch
 ```
+Os textos completos (o que cada uma paga, a pegadinha, e o checklist de pitch) estão em `docs/` e em `drama escolher --detalhe`.
 Skill: copie `skill/onde-publicar-meu-drama` para `~/.claude/skills/`.
 
 ## O processo, do início ao fim

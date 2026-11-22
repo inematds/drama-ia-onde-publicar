@@ -28,3 +28,8 @@ class T(unittest.TestCase):
     def test_pitch_leva_todos_campos(self):
         t = n.pitch("T", "uma herdeira", "30", "90 s", "English", "link", "@x", "Kling")
         for s in ("T", "uma herdeira", "30 × 90 s", "link", "@x", "Kling", "9:16"): self.assertIn(s, t)
+
+class D(unittest.TestCase):
+    def test_toda_linha_tem_o_que_paga(self):
+        for p in n.carregar():
+            self.assertTrue(p["paga"], p["nome"])

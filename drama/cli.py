@@ -14,6 +14,7 @@ def main(argv=None):
     e = sub.add_parser("escolher", help="plataformas da sua rota, abertas primeiro")
     e.add_argument("--rota", required=True, choices=list(n.ROTAS))
     e.add_argument("--hoje", help="AAAA-MM-DD (teste)")
+    e.add_argument("--detalhe", action="store_true", help="mostra o que paga e a pegadinha de cada uma")
     v = sub.add_parser("vencidos", help="rodadas encerradas ou vencidas na lista")
     v.add_argument("--hoje")
     sub.add_parser("rotas", help="explica as 3 rotas")
@@ -31,6 +32,8 @@ def main(argv=None):
     elif a.cmd == "escolher":
         for pl, s in n.escolher(a.rota, hoje):
             print(_linha(pl, s))
+            if a.detalhe:
+                print(f"    paga: {pl['paga']}\n    pegadinha: {pl['pegadinha']}")
         print("\n" + AVISO)
     elif a.cmd == "vencidos":
         for pl, s in n.vencidos(hoje):
