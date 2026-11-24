@@ -32,3 +32,9 @@ Skill: copy `skill/onde-publicar-meu-drama` to `~/.claude/skills/`.
 
 ## Limitations
 The “up to US$ X” amounts are maximums, not typical payouts. Some entries are based only on news articles, and are identified as such. Nothing here guarantees earnings.
+
+## List, real cases and example
+
+- The list of all 26 places, one by one, is in the guide ("The list" section) and in `docs/1-platform-map.md`.
+- "Real cases": two creators with opposite results and the AI character that never got paid.
+- `exemplos/episodio-exemplo.mp4`: a 24-second vertical mini-episode made with Kling 4.0 Flash (3 scenes) to show the format. The Kling mark stays on purpose.

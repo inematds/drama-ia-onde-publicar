@@ -32,3 +32,9 @@ Skill: copie `skill/onde-publicar-meu-drama` para `~/.claude/skills/`.
 
 ## Limites
 Os valores "até US$ X" são o teto, não o comum. Algumas linhas vêm só de notícia e dizem isso. Nada aqui é promessa de ganho.
+
+## Lista, casos reais e exemplo
+
+- A lista das 26 plataformas, uma a uma, está no guia (seção "A lista") e em `docs/1-platform-map.md`.
+- "Casos reais": dois criadores com resultados opostos e o caso da personagem de IA que não recebeu.
+- `exemplos/episodio-exemplo.mp4`: mini-episódio vertical de 24 s feito com o Kling 4.0 Flash (3 cenas), para mostrar o formato. A marca do Kling fica de propósito.
